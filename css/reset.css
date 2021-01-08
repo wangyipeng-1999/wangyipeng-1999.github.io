@@ -1,0 +1,44 @@
+
+@charset "utf-8";
+/* reset.css用来重置样式：清除标签默认样式的 */
+*{
+    /* 把所有标签的默认的padding 和 margin清除 */
+    margin:0;
+    padding:0;
+}
+body{
+    /* 统一当前项目中的文本 */
+    font-size:12px;
+    font-family:"Microsoft YaHei";
+}
+ul,ol{
+    /* 列表符号清除 */
+    list-style:none;
+}
+u,a{
+    /* 把默认下划线清除 */
+    text-decoration: none;
+
+}
+i,em{
+    /* 默认的倾斜清除 */
+    font-style:normal;
+}
+b,strong{
+    /* 默认的加粗清除 */
+    font-weight:normal;
+}
+h1,h2,h3,h4,h5,h6{
+    /* 清除默认的大小、加粗 */
+    font-size:16px;
+    font-weight: normal;
+}
+img{
+    /* 边框清零 */
+    border:none;
+    display: block;
+}
+input{
+    /* 清除input聚焦时候的蓝色边框 */
+    outline:none;
+}

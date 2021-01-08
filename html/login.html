@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>login</title>
+  <link rel="stylesheet" href="../js/bootstrap.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <link rel="stylesheet" href="../font/iconfont.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <script src="../js/jquery.js"></script>
+</head>
+
+<body>
+  <div class="head">
+    <h2>DIOR</h2>
+    <span>&lt;</span>
+    <ul>
+      <li><a href="#" class="iconfont">&#xe6ac;</a></li>
+      <li><a href="#" class="iconfont">&#xe600;</a></li>
+      <li><a href="#" class="iconfont">&#xe604;</a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <div class="h">
+      <h3>登录或创建帐户</h3>
+    </div>
+    <div id="jumbotron">
+      <div class="left">
+        <header class="loginTitle">
+          <span class="tab1">密码登录</span>
+          <span class="tab2">手机验证码登录</span>
+        </header>
+        <!--密码登录-->
+        <form action="../php/login.php" class="form-horizontal">
+          <div class="passwordLogin">
+            <div class="form-group">
+              <label for="inputEmail3" class="col-sm-2 control-label" id="aa">用户名：</label>
+              <div class="col-sm-10">
+                <input type="text" name="user" class="form-control a1 input1" id="inputEmail3" placeholder="手机号/邮箱">
+              </div>
+              <div class="bt" style="width: 200px; height: 30px; color: red;"> </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPassword3" class="col-sm-2 control-label" id="aa">密码：</label>
+              <div class="col-sm-10">
+                <input type="password" name="pass" class="form-control a1 pass1" id="inputPassword3" placeholder="密码">
+              </div>
+            </div>
+
+            <!--手机验证码登录-->
+          </div>
+          <div class="phoneLogin">
+            <div class="form-group" style="margin-left: -30px;">
+              <label for="inputEmail3" class="col-sm-2 control-label" id="aa"></label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control a1" id="inputEmail3" placeholder="*手机号" style="width: 250px;">
+              </div>
+            </div>
+            <div class="form-group" style="margin-left: -30px;">
+              <label for="inputPassword3" class="col-sm-2 control-label" id="aa"></label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control a1" id="inputPassword3" placeholder="*验证码" style="float: left;" >
+                <input type="submit" value="12sl" style="width: 56px; height: 30px; float: left; margin-left: 10px; background: #cccccc; border: 0;">
+              </div>
+            </div>
+            <div class="form-group" style="margin-left: -30px;">
+              <label for="inputPassword3" class="col-sm-2 control-label" id="aa"></label>
+              <div class="col-sm-10">
+                <input type="password" class="form-control a1" id="inputPassword3" placeholder="*短信验证码" style="float: left;"> 
+                <input type="submit" value="发送"  style="width: 56px; height: 30px; color: #fff; float: left; margin-left: 10px; border-radius: 30px; background: #000000;" >
+              </div>
+            </div>
+          </div>
+          
+
+          <!-- <div class="form-group"> -->
+          <div class="col-sm-offset-2 col-sm-10">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox">我已阅读并接受 <a href="#">个人信息收集声明</a> 以及<br /><a href="#">网站使用和销售条款</a>
+              </label>
+            </div>
+            <!-- </div> -->
+          </div>
+          <div class="form-group">
+            <div class="col-sm-offset-1 col-sm-10">
+              <a href="#">忘记密码?</a>
+              <input type="submit" value="登录" class="btn btn-default"  style="background-color: #000000; width: 50px; border-radius: 30px;margin-left: 110px; color: #fff;">
+            </div>
+          </div>
+        </form>
+
+      </div>
+
+      <div class="right">
+
+        <p>注册Dior账户</p>
+
+        <p>注册Dior账号以便追踪您的订单，<br />
+          管理收货地址，获取更多个性化信息</p>
+
+        
+        <div class="tiaozhuan">
+          <!-- <input type="submit" value="创建账户" class="input1"> -->
+        
+          <a href="zhuce.html">创建账户</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wz">
+    <p>*请妥善保管您的注册账户信息，勿将账号及密码随意泄露给他人。<br />
+      请注意，您的账户注册手机号为迪奥识别及验证您账户身份的唯一依据。</p>
+  </div>
+  <div class="xian">
+    <hr>
+  </div>
+
+
+ <!--footer-->
+  <div class="footer">
+   
+    <div class="bot">
+      <h4>国家/地区</h4>
+      <div class="bot_1">
+          <span class="iconfont">&#xe604; </span>
+          
+          <strong>中国大陆（CNY¥）</strong>
+          <i class="iconfont a2" style="color:#000000; margin-left: 100px;">&#xe60b; </i>
+          <span class="iconfont b1" style="display: none; margin-left: 99px;">&#xe652;</span>
+          <div class="kuang">
+              <div class="let">Europe</div>
+              <ul>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+                  <li class="iconfont">&#xe604; &nbsp; Belgique (EURE)</li>
+              </ul>
+          </div>
+      </div>
+  </div>
+
+    <div class="ecrin-light-block">
+      <ul id="ecrin-light-links">
+        <li><a href="#" target="_self" rel="">联系我们</a></li>
+        <li><a href="#" target="_self" rel="">配送及退货</a></li>
+        <li><a href="#" target="_self" rel="">常见问题</a></li>
+        <li><a href="#" target="_self" rel="">使用条款</a></li>
+        <li><a href="#" target="_self" rel="">数据保护章程</a></li>
+      </ul>
+      <div class="centered">
+        <a href="#" target="_blank">
+          <img alt="" src="../images/1 (3).png" id="aa"> &nbsp; 电子营业执照</a></br>
+        <a href="#" target="_blank">
+          <img alt="" src="../images/1 (1).png" id="aa"> &nbsp; 沪公网安备 31010602002343号</a></br>
+        <a href="#" target="_blank">
+          <img alt="" src="../images/1 (2).png" id="aa"> &nbsp; 沪ICP备19005922号</a>
+
+        <p>尚圃电子商务（上海）有限公司</p>
+        <p>上海市南京西路1266号恒隆广场1期29F</p>
+
+      </div>
+    </div>
+
+    <div class="subblock">
+      <div class="footer-blocks-subblock">
+        <nav class="social-media-link-list">
+          <span class="title-with-level social-media-link-list-title century-std size-s uppercase">
+            <span class="multiline-text multiline-text--is-china">关注我们</span>
+          </span>
+          <ul class="icons">
+            <li>
+              <a class="social-media-link" href="http://e.weibo.com/dior" target="_self" rel="">
+                <img alt="" src="https://www.dior.cn/beauty/zh_cn/store/media/wysiwyg/footer/weibo.jpg"></a>
+            </li>
+            <li class="click-weixin">
+              <img alt="" src="https://www.dior.cn/beauty/zh_cn/store/media/wysiwyg/footer/icon-weixin.jpg">
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="return iconfont" ><a onclick="pageScroll()">&#xe652;</a></div>
+  <script src="../js/login.js"></script>
+</body>
+
+
+</html>
